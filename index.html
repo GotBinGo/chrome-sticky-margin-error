@@ -1,0 +1,15 @@
+<div style="height: 500px; padding: 10px; border: 1px solid black; background-color: blue;">
+    <div style="height: 100px; position: sticky; top: 0px; border: 1px solid black; background-color: red;">
+        sticky header
+    </div>
+    <div style="height: calc(100% - 100px); display: flex; flex-direction: column; justify-content: space-between; 1px solid black; background-color: green;">
+        container body
+        
+        <div style="height: 150px; border: 1px solid black; background-color: yellow;">
+            body bottom, avoid overlay
+        </div>
+    </div>
+</div>
+<div style="margin: 10px 0px; height: 2000px; border: 1px solid black;">
+    footer to allow scrolling
+</div>
